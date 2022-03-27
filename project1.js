@@ -8,7 +8,7 @@ save.onclick=()=>{
     localStorage.setItem("nas",text.value);
 }
 delet.onclick=()=>{
-    text.innerHTML="";
+    textf.innerHTML="";
 }
 onload=()=>{
     text.value=localStorage.getItem("nas");
