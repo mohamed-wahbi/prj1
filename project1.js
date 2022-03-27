@@ -11,7 +11,7 @@ delet.onclick=()=>{
     textf.innerHTML="";
 }
 onload=()=>{
-    text.value=text;
+text.value.innerHTML=localStorage.getItem("nas");
     textf.innerHTML="";
 
 }
