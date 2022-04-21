@@ -10,8 +10,4 @@ save.onclick=()=>{
 delet.onclick=()=>{
     textf.innerHTML="";
 }
-onload=()=>{
-text.value.innerHTML=localStorage.getItem("nas");
-    textf.innerHTML="";
 
-}
